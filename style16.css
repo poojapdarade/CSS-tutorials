@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+}
+
+.example {
+  margin-top: 1rem;
+  padding-left: 20px;
+  border: 1px solid purple;
+}
+.example img {
+  width: 25%;
+  height: auto;
+}
