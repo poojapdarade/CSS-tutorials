@@ -7,6 +7,10 @@
 body {
   font-family: "Times New Roman", Times, serif;
   min-height: 100vh;
+  background-color: rgb(100, 129, 155);
+  background-image: url("./scenic.png"),
+    linear-gradient(to left, steelblue, #fff);
+  background-repeat: repeat-y, no-repeat;
 }
 
 img {
