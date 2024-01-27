@@ -112,9 +112,9 @@ footer {
   text-align: center;
 }
 /* syntax:
-  @media media-type and (condition:breakpoint) {
-    //css rule
-  } */
+    @media media-type and (condition:breakpoint) {
+      //css rule
+    } */
 
 /*Small*/
 @media screen and (min-width: 576px) {
