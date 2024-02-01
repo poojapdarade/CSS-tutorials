@@ -13,6 +13,14 @@ img {
   white-space: nowrap;
 }
 
+/*Variables*/
+
+:root {
+  /*Colors*/
+  --BGCOLOR: #475569;
+  --FCOLOR: #00008b;
+}
+
 /*General styles*/
 
 html {
@@ -23,8 +31,8 @@ body {
   font: 1.5rem;
   font-family: "Times New Roman", Times, serif;
   min-height: 100vh;
-  background-color: #475569;
-  background-image: radial-gradient(whitesmoke, #475569);
+  background-color: black;
+  background-image: radial-gradient(whitesmoke, var(--BGCOLOR));
   display: flex;
   flex-direction: column;
 }
@@ -39,7 +47,7 @@ body {
 header,
 footer {
   position: sticky;
-  background-color: #1e293b;
+  background-color: var(--FCOLOR);
   color: whitesmoke;
 }
 
