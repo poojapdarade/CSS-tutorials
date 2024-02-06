@@ -16,11 +16,11 @@
   --DARKCOLOR: hsl(215, 19%, 35%);
 
   --SQUARE-BGCOLOR: hsl(37, 100%, 92%);
-  --SQUARE-SIZE: max(150px, 20cw);
+  --SQUARE-SIZE: 200px;
 
   --PADDING: 0.5rem;
   --SHADOWS: 0 6px 5px -5px var(--DARKCOLOR);
-  --BORDERS: 2px solid var(var(--DARKCOLOR));
+  --BORDERS: 2px solid var(--DARKCOLOR);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,8 +44,7 @@ body {
 
 header,
 footer,
-nav,
-main {
+nav {
   display: grid;
   place-content: center;
   grid-template-columns: 100%;
@@ -71,12 +70,11 @@ nav {
 }
 
 main {
-  flex-grow: 1;
-  padding: 10px 0;
   display: flex;
+  padding: 10px 0;
+  flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
-  flex-flow: row wrap;
+
   gap: min(4vw, 15px);
 }
 
