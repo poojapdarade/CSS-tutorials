@@ -73,6 +73,8 @@ div:last-child:hover {
   animation-timing-function: ease-in-out;
   animation-delay: 1s;
   animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
 }
 
 @keyframes slide {
@@ -80,10 +82,10 @@ div:last-child:hover {
     transform: translateX(0);
   }
   33% {
-    translate: translateX(600px) rotate(180deg);
+    translate: translateX(300px) rotate(180deg);
   }
   66% {
-    translate: translateX(-600px) rotate(-180deg);
+    translate: translateX(-300px) rotate(-180deg);
   }
   100% {
     translate: translateX(0);
